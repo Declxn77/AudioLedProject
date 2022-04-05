@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{56a7ef36-dbd6-4532-a679-d3b00057346f}">
+		<property name="name">
+			<value>Ship_Pitch_EQLowMid</value>
+		</property>
+		<relationship name="folder">
+			<destination>{21079cdb-97b9-47ce-81bd-d7b8f23eb99c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{77766bb8-641c-4c6b-a329-ea4b3e3c43f8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{77766bb8-641c-4c6b-a329-ea4b3e3c43f8}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
