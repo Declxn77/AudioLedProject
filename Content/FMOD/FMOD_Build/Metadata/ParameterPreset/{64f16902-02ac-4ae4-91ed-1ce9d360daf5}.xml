@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{64f16902-02ac-4ae4-91ed-1ce9d360daf5}">
+		<property name="name">
+			<value>Beach_EQMidHi</value>
+		</property>
+		<relationship name="folder">
+			<destination>{21079cdb-97b9-47ce-81bd-d7b8f23eb99c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c2d19b09-06a3-46af-8857-cd903c339ccc}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c2d19b09-06a3-46af-8857-cd903c339ccc}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

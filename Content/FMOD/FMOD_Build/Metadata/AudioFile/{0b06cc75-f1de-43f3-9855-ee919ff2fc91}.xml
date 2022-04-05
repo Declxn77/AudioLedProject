@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{0b06cc75-f1de-43f3-9855-ee919ff2fc91}">
 		<property name="assetPath">
-			<value>mixkit-small-waves-harbor-rocks-1208.wav</value>
+			<value>small-waves-harbor-rocks-1208.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
