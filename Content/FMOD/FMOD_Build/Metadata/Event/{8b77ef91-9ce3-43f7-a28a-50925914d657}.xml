@@ -35,6 +35,9 @@
 			<destination>{81148dc4-9aae-4e67-adb8-33ed83c77786}</destination>
 			<destination>{c345a46e-985b-4f5c-b626-6b5b735f37f7}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{e01c74eb-abe0-4eb3-a824-80e256e06d8b}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{c1369bed-7f7e-4eab-b451-a51a5edcf460}">
 		<relationship name="masterBus">
@@ -76,6 +79,9 @@
 	<object class="Timeline" id="{9212cf89-b1d9-4c0b-a07e-6b49831f583f}">
 		<relationship name="modules">
 			<destination>{772f79dd-fb6f-4dc5-bca2-efcfd9fca4fc}</destination>
+		</relationship>
+		<relationship name="markers">
+			<destination>{5b990608-63d0-4b8c-ba10-93935a51e8a8}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{81148dc4-9aae-4e67-adb8-33ed83c77786}">
@@ -153,6 +159,20 @@
 			<destination>{7b0358a9-68f2-493e-aa24-808207bf6759}</destination>
 		</relationship>
 	</object>
+	<object class="LoopRegion" id="{5b990608-63d0-4b8c-ba10-93935a51e8a8}">
+		<property name="position">
+			<value>0.375</value>
+		</property>
+		<property name="length">
+			<value>6.625</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{9212cf89-b1d9-4c0b-a07e-6b49831f583f}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{b774704e-7fe5-4a2b-b2bc-10465880e522}</destination>
+		</relationship>
+	</object>
 	<object class="Automator" id="{f2079846-2e81-4079-8327-023fac37576c}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>volume</value>
@@ -219,7 +239,7 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>4.20000029</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{f3f80cbc-f9da-46f6-8668-342ed335ecfc}" />
