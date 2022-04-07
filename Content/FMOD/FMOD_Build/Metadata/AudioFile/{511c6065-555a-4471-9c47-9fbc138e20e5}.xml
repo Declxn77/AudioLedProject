@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{511c6065-555a-4471-9c47-9fbc138e20e5}">
+		<property name="assetPath">
+			<value>amb_electric-storm-thunder-1295.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>18.805374149659865</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06eca77e-b4a5-403b-9ebf-50e76e03d076}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{3acb11f0-f7f1-44d6-a958-676eb1ea0f8f}">
+		<property name="name">
+			<value>interact_type</value>
+		</property>
+		<relationship name="folder">
+			<destination>{21079cdb-97b9-47ce-81bd-d7b8f23eb99c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{61c544b9-88fc-461b-96aa-464989a37653}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{61c544b9-88fc-461b-96aa-464989a37653}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>rope</value>
+			<value>lantern</value>
+			<value>supplies</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
