@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{96780de1-d38a-415d-907b-aaa6376dc79f}">
+		<property name="assetPath">
+			<value>mus_melody guitar.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>227.19476190476192</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06eca77e-b4a5-403b-9ebf-50e76e03d076}</destination>
+		</relationship>
+	</object>
+</objects>
