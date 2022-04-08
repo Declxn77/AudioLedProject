@@ -79,7 +79,7 @@
 			<destination>{18547b66-0254-4182-87a1-4e5c5e72359c}</destination>
 		</relationship>
 		<relationship name="modules">
-			<destination>{6a013afc-59a6-4fcd-9d1f-1f5a44419c0d}</destination>
+			<destination>{a6d0c2f3-08a4-4b6c-8e64-e22544a46ac6}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d6e2ebfa-bee8-42fc-bd52-e3f616b72ab7}</destination>
@@ -90,7 +90,7 @@
 			<destination>{344f6882-d504-43aa-a1be-1d9dc30ec54d}</destination>
 		</relationship>
 		<relationship name="modules">
-			<destination>{5c6b199b-14bb-46a0-b980-c5f044e02224}</destination>
+			<destination>{a4554249-043d-49d4-9268-c2701914e4c6}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{2e41e718-3d73-48b0-89fc-ab64f17c5e1f}</destination>
@@ -98,9 +98,9 @@
 	</object>
 	<object class="Timeline" id="{c570b9b1-4039-4099-80ec-8dc32a1cbc6a}">
 		<relationship name="modules">
-			<destination>{6a013afc-59a6-4fcd-9d1f-1f5a44419c0d}</destination>
-			<destination>{5c6b199b-14bb-46a0-b980-c5f044e02224}</destination>
 			<destination>{0b874aea-d21c-4a9d-8a80-64dfa02c14b6}</destination>
+			<destination>{a4554249-043d-49d4-9268-c2701914e4c6}</destination>
+			<destination>{a6d0c2f3-08a4-4b6c-8e64-e22544a46ac6}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{0ba06741-7003-4319-9e6f-badf43dd1564}">
@@ -166,11 +166,13 @@
 			<destination>{68863193-a507-409f-bb87-4c1accce12ea}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{6a013afc-59a6-4fcd-9d1f-1f5a44419c0d}">
+	<object class="SingleSound" id="{a6d0c2f3-08a4-4b6c-8e64-e22544a46ac6}">
 		<property name="length">
-			<value>2.5</value>
+			<value>2.38623046875</value>
 		</property>
-		<property name="name" />
+		<property name="timelockedOffset">
+			<value>0.11376953125</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{cca22f95-a836-4b7b-a770-68cf44f833c7}</destination>
 		</relationship>
@@ -200,9 +202,12 @@
 			<destination>{7653f833-507d-49a5-95ad-b40dcb54810b}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{5c6b199b-14bb-46a0-b980-c5f044e02224}">
+	<object class="SingleSound" id="{a4554249-043d-49d4-9268-c2701914e4c6}">
 		<property name="length">
-			<value>0.41666666666666669</value>
+			<value>0.36197916666666669</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.0546875</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{4b4dfe35-926f-476f-bcab-c11ba4882440}</destination>

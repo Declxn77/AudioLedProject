@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4c2eba11-f5f7-4312-9884-e6770ccaa368}">
+		<property name="assetPath">
+			<value>sfx_woodstep_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.48231249999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06eca77e-b4a5-403b-9ebf-50e76e03d076}</destination>
+		</relationship>
+	</object>
+</objects>
